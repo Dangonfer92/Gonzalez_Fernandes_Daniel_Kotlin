@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/mathdroid" />
+
+    <TextView
+        android:id="@+id/textoFijo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:rotationX="-12"
+        android:text="Algebradron te calcula los primos"
+        android:textColor="#4CAF50"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/entradaNumero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Introduce un número positivo"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/botonCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#4CAF50"
+        android:fontFamily="monospace"
+        android:text="Calcular"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/etiquetaResultado"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="monospace"
+        android:hint="Resultado"
+        android:paddingTop="24dp"
+        android:textAlignment="center"
+        android:textColor="#4CAF50"
+        android:textSize="16sp"
+        android:textStyle="normal" />
+
+</LinearLayout>
